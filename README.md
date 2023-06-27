@@ -2,34 +2,19 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+[Ссылка на проект](https://code.visualstudio.com/)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## В этом приложении реализовано следующее:
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- Полная настойка шаблона на Vue CLI;
+- Установка и настройка Vue-router для Vue.js 3;
+- Динамическая перерисовка без перезагрузки страницы;
+- Динамический навбар и ссылки;
+- Обработка несуществующих роутов;
+- Компонентный подход
+- Настройка и работа с хранилищем VUEX
+- Хранение и динамическое обновление заметок в localStorage
+- Удаление заметок
+- Редактирование заметок
+- Выбор тега при создании заметки
+- Работа с props и emits между компонентами
