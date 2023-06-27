@@ -2,7 +2,7 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-[Ссылка на проект](https://code.visualstudio.com/)
+[Ссылка на проект](notes-vuex-tsyganov.vercel.app)
 
 ## В этом приложении реализовано следующее:
 
