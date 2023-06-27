@@ -44,7 +44,7 @@ const onFilterTag = (tag) => {
 <template>
   <form class="notes-form" @submit.prevent="onSubmit">
     <textarea v-model="noteText" placeholder="Type ur text" required></textarea>
-    <tags-list :items="getTags" @on-tag-click="onFilterTag" />
+    <tags-list :items="tags" @on-tag-click="onFilterTag" />
     <button class="btn btnPrimary" type="submit">Add you note</button>
   </form>
 </template>
